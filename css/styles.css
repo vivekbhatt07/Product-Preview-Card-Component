@@ -33,11 +33,16 @@ body {
   display: flex;
 }
 
+p {
+  line-height: 1.375rem;
+}
+
 h1 {
   font-family: var(--primary-font);
   font-weight: var(--bold-weight);
   color: var(--head-color);
   font-size: 1.875rem;
+  line-height: 2rem;
 }
 
 .card-wrapper {
@@ -80,9 +85,6 @@ h1 {
 
 .card-title {
   text-transform: capitalize;
-}
-
-.card-subtitle {
 }
 
 .card-price {
@@ -140,7 +142,7 @@ h1 {
   text-transform: capitalize;
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 780px) {
   .card {
     flex-direction: row;
   }
