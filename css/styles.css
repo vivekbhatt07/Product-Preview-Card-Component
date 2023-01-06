@@ -57,6 +57,7 @@ h1 {
   border-radius: 6px;
   overflow: hidden;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: var(--card-bg-color);
 }
 
 .card-img-mob,
