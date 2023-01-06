@@ -6,19 +6,25 @@
   --secondary-font: "Montserrat", sans-serif;
   --medium-weight: 500;
   --bold-weight: 700;
+  --body-bg-color: hsl(30, 38%, 92%);
+  --card-bg-color: hsl(0, 0%, 100%);
+  --price-color: hsl(158, 36%, 37%);
+  --btn-color: hsl(158, 36%, 37%);
+  --para-color: hsl(228, 12%, 48%);
+  --head-color: hsl(212, 21%, 14%);
 }
 
-p {
+body {
   font-size: 14px;
+  font-family: var(--secondary-font);
+  font-weight: var(--medium-weight);
+  background-color: var(--body-bg-color);
+  color: var(--para-color);
 }
 
-/* ### Primary
-
-- Dark cyan: hsl(158, 36%, 37%)
-- Cream: hsl(30, 38%, 92%)
-
-### Neutral
-
-- Very dark blue: hsl(212, 21%, 14%)
-- Dark grayish blue: hsl(228, 12%, 48%)
-- White: hsl(0, 0%, 100%) */
+h1 {
+  font-family: var(--primary-font);
+  font-weight: var(--bold-weight);
+  color: var(--head-color);
+  font-size: 22.6px;
+}
